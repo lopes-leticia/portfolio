@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'roboto', 'sans-serif';
+}
+
+li {
+    list-style: none;
+}
+
+.header-menu{
+   display: flex;
+   position: fixed;
+   width: 100%; 
+   padding: 8px;
+   padding-top: 32px;
+   padding-bottom: 32px;
+   height: 60px;
+   background-color: rgb(29, 80, 64);
+}
+.header-menu nav {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.lista-menu {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    align-items: center;
+}
+
+.lista-menu li>a {
+    font-size: 18px;
+    color: #ffff;
+    text-decoration: inherit;
+}
+
+.principal{
+    height: 100vh;
+    display: flex;
+    background-color: rgb(233, 233, 233);
+}
+
+.container{
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 100%;
+}
+
+.subconteiner-principal{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.avatar {
+    width: 180px;
+    height: 180px;
+    border-radius: 150px;
+}
+
+.nome-completo {
+    font-size: 36px;
+    color:rgb(3, 3, 3);
+    font-weight: 700;
+    height: 45px;
+}
+
+.profissao{
+    color: rgb(4, 48, 30);
+    height: 60px;
+}
+
+.texto-sobre{
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.article-lista{
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    flex-direction: column;
+}
+
+.topico-principal{
+    font-size: 36px;
+    color: rgb(2, 80, 67);
+}
+
+.lista-titulo{
+    margin-bottom: 5px;
+    font-size: 22px;
+    color: rgb(196, 0, 98);
+    font-weight: 700;
+}
+
+#formacao {
+    background-color: rgb(251, 210, 255);
+}
+#experiencias {
+    background-color: rgb(251, 210, 255);
+}
+
+.footer {
+    background-color: rgb(59, 167, 132);
+    display: flex;
+    align-items: center;
+    height: 30vh;
+    padding-bottom: 40.5px;
+    padding-top: 40.5px;
+    
+}
+
+.lista-footer {
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 24.5px;
+}
+
+.links {
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.lista-formacao{
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+}
+
+.lista-formacao li {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.rodape-icone{
+    font-size: 25.5px;
+}
