@@ -14,19 +14,25 @@ li {
 }
 
 .header-menu{
-   display: flex;
+    width: 100%; 
+    display: flex;
+    justify-content: flex-end;
    position: fixed;
-   width: 100%; 
    padding: 8px;
    padding-top: 32px;
    padding-bottom: 32px;
    height: 60px;
-   background-color: rgb(29, 80, 64);
+   background-color: rgb(0, 105, 88);
 }
-.header-menu nav {
+
+.header-menu nav{
     width: 100%;
     display: flex;
     justify-content: flex-end;
+}
+
+.fundo{
+    background-color: rgb(235, 170, 224);
 }
 
 .lista-menu {
@@ -45,7 +51,7 @@ li {
 .principal{
     height: 100vh;
     display: flex;
-    background-color: rgb(233, 233, 233);
+    background-color: rgb(218, 231, 229);
 }
 
 .container{
@@ -79,7 +85,7 @@ li {
 }
 
 .profissao{
-    color: rgb(4, 48, 30);
+    color: rgb(196, 0, 98);
     height: 60px;
 }
 
@@ -96,8 +102,11 @@ li {
 }
 
 .topico-principal{
-    font-size: 36px;
-    color: rgb(2, 80, 67);
+    color: rgb(0, 105, 88);
+}
+
+.lista-item{
+    padding: 32px;
 }
 
 .lista-titulo{
@@ -107,15 +116,37 @@ li {
     font-weight: 700;
 }
 
-#formacao {
-    background-color: rgb(251, 210, 255);
+.lista-local{
+    font-size: 18px;
+    color: #000000
 }
-#experiencias {
-    background-color: rgb(251, 210, 255);
+
+.lista-descricao{
+    font-size: 18px;
+    margin-top: 5px;
+    line-height: 20px;
+    color:rgb(0, 105, 88);
+    font-weight: 300;
+}
+
+.section-portfolio{
+    font-size: 36px;
+}
+
+.section-titulo-tamanho{
+    font-size: 50px;
+}
+
+.section-titulo-portfolio{
+    color: rgb(0, 105, 88);
+}
+
+.titulo-lista-portfolio{
+    color:rgb(255, 0, 0);
 }
 
 .footer {
-    background-color: rgb(59, 167, 132);
+    background-color: rgb(0, 105, 88);
     display: flex;
     align-items: center;
     height: 30vh;
@@ -135,7 +166,7 @@ li {
     gap: 24.5px;
 }
 
-.links {
+.links{
     color: white;
     text-decoration: none;
     margin-left: 10px;
