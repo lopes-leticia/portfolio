@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: 'roboto', 'sans-serif';
+    font-family: sans-serif;
 }
 
 li {
@@ -106,7 +106,7 @@ li {
 }
 
 .lista-item{
-    padding: 32px;
+    padding: 45px;
 }
 
 .lista-titulo{
@@ -124,6 +124,7 @@ li {
 .lista-descricao{
     font-size: 18px;
     margin-top: 5px;
+    padding: 10px;
     line-height: 20px;
     color:rgb(0, 105, 88);
     font-weight: 300;
