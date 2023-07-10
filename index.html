@@ -18,10 +18,16 @@
 
             <ul class="lista-menu">
                 <li>
+                    <a href="#inicio"> Início </a>
+                </li>
+                <li>
                     <a href="#formacao"> Formação </a>
                 </li>
                 <li>
-                   <a href="#experiencias">Experiências</a> 
+                    <a href="#cursos"> Cursos </a>
+                </li>
+                <li>
+                   <a href="#extracurricular">Extracurricular</a> 
                 </li>
                 <li>
                     <a href="#contatos">Contatos</a>
@@ -33,9 +39,14 @@
 
     <main class="fundo">
 
-        <section class="principal">
+        <section class="principal" id="inicio"> 
             <article class="container subconteiner-principal">
 
+                <div class="contador">
+                    <p>Essa página possui</p>
+                    <h1 id="count"></h1>
+                    <p>visualizações</p>
+                  </div>
 
                 <div>
                     <img src="img/foto-perfil.jpeg" alt="icone do meu perfil" class="avatar">
@@ -51,35 +62,45 @@
                         Socióloga pela UFSCar, sempre fui curiosa em entender pessoas, seus contextos e trajetórias com respeito e empatia. Em processo de transição de carreira, busco transportar as habilidades desenvolvidas na academia para a experiência do usuário, além de me aventurar e abrir novos horizontes estudando front-end pelo Instituto Minas Programam.
                     </p>
                 </div>
+                <button class="btn-like" id="like-project-1">
+                    <i class="far fa-heart"></i>
+                    <span class="like-count">0</span>
+                  </button>
 
             </article>
         </section>
 
         <section id="formacao">
-            <article class="container article-lista">
+            <article class="container">
 
                 <div>
-                    <h3 class="section-titulo-tamanho topico-principal">Formação</h3>
+                    <h2 class="section-titulo-tamanho section-titulo-portfolio">Formação</h2>
                 </div>
 
                 <div class="lista-item">
                     <ul>
+
                         <li>
                             <p class="lista-titulo">Ciências Sociais</p>
-                            <a href="https://www.ufscar.br/" target="_blank" class="lista-local">UFSCar</a>
+                            <a href="https://www.ufscar.br/" target="_blank" class="lista-local"> UFSCar</a>
                             <p class="lista-descricao">Bacharel em Ciências Sociais com ênfase em Sociologia pela UFSCar.</p>
+
                         </li>
+
+                    
+
                     </ul>
                 </div>
 
             </article>
         </section>
 
-        <section id="experiencias">
+
+        <section id="cursos">
             <article class="container">
 
                 <div>
-                    <h2 class="section-titulo-tamanho section-titulo-portfolio">Experiências</h2>
+                    <h2 class="section-titulo-tamanho section-titulo-portfolio">Cursos</h2>
                 </div>
 
                 <div class="lista-item">
@@ -102,6 +123,22 @@
                             <a href= "https://portalgeead.cps.sp.gov.br/mooc/" target="_blank" class="lista-local"> Centro Paula Souza</a>
                             <p class="lista-descricao">Curso sobre a metodologia de trabalho do Design Thinking. Maio de 2023.</p>
                         </li>
+
+                    </ul>
+                </div>
+
+            </article>
+        </section>
+
+        <section id="extracurricular">
+            <article class="container">
+
+                <div>
+                    <h2 class="section-titulo-tamanho section-titulo-portfolio">Extracurricular</h2>
+                </div>
+
+                <div class="lista-item">
+                    <ul>
 
                         <li>
                             <P class="lista-titulo">Projeto de Extensão</P>
@@ -141,7 +178,14 @@
                 </ul>
             </div>
 
+            <div>
+                <p class="rodape"> Ps: site  desenvolvido por mim mesma</p>
+            </div>
+
     </footer>
+
+    <script src="script.js"></script>
+
 </body>
 
 </html>

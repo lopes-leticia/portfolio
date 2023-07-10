@@ -9,6 +9,10 @@ body {
     font-family: sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 li {
     list-style: none;
 }
@@ -51,7 +55,7 @@ li {
 .principal{
     height: 100vh;
     display: flex;
-    background-color: rgb(218, 231, 229);
+    background-color: rgb(235, 235, 235);
 }
 
 .container{
@@ -79,7 +83,7 @@ li {
 
 .nome-completo {
     font-size: 36px;
-    color:rgb(3, 3, 3);
+    color:rgb(0, 105, 88);
     font-weight: 700;
     height: 45px;
 }
@@ -136,6 +140,7 @@ li {
 
 .section-titulo-tamanho{
     font-size: 50px;
+    padding-top: 15px;
 }
 
 .section-titulo-portfolio{
@@ -188,3 +193,45 @@ li {
 .rodape-icone{
     font-size: 25.5px;
 }
+
+.rodape{
+    color: rgb(255, 255, 255);
+    height: 60px;
+    justify-content: end;
+    font-size: 18px;
+    margin-right: 20px;
+    margin-bottom: 70px;
+}
+
+.contador {
+    position:fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .btn-like {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  
+  .btn-like .like-count {
+    margin-left: 5px;
+  }
+  
+  .btn-like i {
+    margin-right: 5px;
+  }
+  
+  .btn-like.liked i {
+    color: red;
+  }
